@@ -107,4 +107,6 @@ def run_setup(with_binary):
         platforms=['any'],
         **kw)
 
+print('Chef: Native extensions disabled')
+
 run_setup(False)
